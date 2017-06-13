@@ -21,6 +21,7 @@ WebView的设置
         settings.setDefaultTextEncodingName("UTF-8");
         settings.setJavaScriptEnabled(true);
         settings.setSupportZoom(true);
+        settings.setBuiltInZoomControls(true);
         settings.setDisplayZoomControls(false);
         settings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NORMAL);
         settings.setUseWideViewPort(true);
