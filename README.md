@@ -6,9 +6,15 @@
 
 ## 云合同Html5的路径 ##
 
-    String url = "http://sdk.yunhetong.com/sdk/contract/hView?contractId=获取的合同ID&token=获取的token"
+    String url = "http://sdk.yunhetong.com/sdk/contract/hView?contractId=获取的合同ID&token=获取的token&noticeParams=备注字段"
 
-参数为第三方服务端获取。
+
+| Params        | enble         |  meaning |
+| ------------- |:-------------:| --------:|
+| token         | Y             | 登录凭证  |
+| contractId    | Y             | 合同ID   |
+| noticeParams  | N             | 备注字段 |
+
 
 
 WebView的设置
@@ -45,10 +51,3 @@ WebView的设置
        mWebView.loadUrl(url);
 
 配置可酌情删减。
-
-        
-
-
-
-
-
